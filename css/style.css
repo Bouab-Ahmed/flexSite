@@ -331,12 +331,10 @@ ul.footer-content li i:hover {
 .footer-area p {
   font-size: 20px;
   display: flex;
+  text-align: center;
   justify-content: center;
   color: var(--whiteColor);
   padding-bottom: 20px;
-}
-.footer-area p span {
-  color: var(--mainColor);
 }
 @media (max-width: 1000px) {
   .footer-area h2 {
@@ -346,6 +344,14 @@ ul.footer-content li i:hover {
     margin: 10px;
   }
   .footer-content p {
-    font-size: 15px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 600px) {
+  .footer-content p {
+    flex-basis: 15px;
+    display: flex;
+    padding: 0 7px;
+    justify-content: center;
   }
 }
